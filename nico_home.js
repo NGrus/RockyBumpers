@@ -81,6 +81,7 @@ function GianniValidateInput() {
   }
   if (GianniMobile.value == "") {
     alert("please input a mobile number")
+  
   }
 }
 //end
