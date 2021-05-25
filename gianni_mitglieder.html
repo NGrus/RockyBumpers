@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="nico_home.css">
+    <style>
+    </style>
+  </head>
+  <body>
+    <nav id="navitems" class="navbar navbar-expand-sm" style="background: rgb(106,156,106); background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);">
+      <a href="nico_home.html"><img id="logo" class="rounded-circle" src="logorocky.png"></a>
+      <div id="Titlecont">
+        <h1 id=RockyBumpers> Rocky Bumpers</h1>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <div id="navigation">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="gianni_mitglieder.html">Mitglied</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carolina_geschichte.html">Geschichte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dina_events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="oliver_kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="memberbutton">
+      <a href="gianni_mitglieder.html"><button class="btn btn-success"  id="registerbtn">Register Now!</button></a>
+    </div>
+    <div id="scrolltop">
+      <img onclick="topFunction()" class="rounded-circle" id="myBtn" title="Go to top" src="download.png"
+        style="margin:0px;padding:0px;">
+    </div>
+  <center>
+    <div id="main" class="col-sm-8">
+    <div id="textbox">
+      <h1>Mitgliedschaft</h1>
+       <p>Unterstütze unsere Aktivitäten. Ob ideell oder aktiv - wir brauchen deine Stimme, um uns auf politischer und gesellschaftlicher Ebene für unseren Sport einsetzen zu können.</p>
+      <ul style="text-align:left;">
+        <li>Aktivmitglied - Du zahlst 50.- CHF/Jahr und nimmst am Vereinsleben teil. Alle unsere Aktivitäten wie Touren, Events und Workshops stehen dir völlig kostenlos zur Verfügung.</li>
+        <li>Fördermitglied - Du zahlst 100.- CHF/Jahr und hast alle Rechte eines Aktivmitglieds. Mit Deinem freiwilligen höheren Betrag unterstützt Du unsere Aktivitäten nicht nur ideell, sondern trägst dazu bei, dass wir auch in Zukunft unsere Aktivitäten für unsere Mitglieder kostenlos gestalten können</li>
+        <li>Passivmitglied - Du zahlst 20.- CHF/Jahr und unterstützt uns damit ideell und möchtest nur in begrenztem Rahmen am Vereinsleben teilnehmen.</li>
+      </ul>
+    <form action="confirmationMitglieder.html">   
+          <div class="flex-container">  
+                <center>
+                    <select class="custom-select-lg">
+                      <option>Mitgliedschaft</option>
+                      <option>Aktivmitglied 50.- CHF/Jahr</option>
+                      <option>Passivmitglied 100.- CHF/Jahr</option>
+                      <option>Fördermitglied 20.- CHF/Jahr</option>
+                    </select>
+                </center>
+          </div>
+      <div style="padding: 10%;" id="formbox" class="flex-container">  
+            <div class="form-group">
+              <label for="validationDefault01">Anrede</label>
+              <input type="text" class="form-control" id="gianni-anrede" 
+              required>
+            </div>
+            <div class="form-group">
+              <label for="validationDefault01">Vorname</label>
+              <input type="text" class="form-control" id="gianni-fname"
+              required>
+            </div>
+            <div class="form-group">
+              <label for="validationDefault01">Strasse, Nr.</label>
+              <input type="text" class="form-control" id="gianni-strnum" 
+              required>
+            </div>   
+            <div class="form-group">
+              <label for="validationDefault01">E-Mail</label>
+              <input type="email" class="form-control" id="gianni-email" placeholder="max.mustermann@gmx.ch" 
+              required>
+            </div> 
+            <div class="form-group">
+              <label for="validationDefault01">Geb. Datum</label>
+              <input type="date" class="form-control" id="gianni-birthdate"placeholder="Geb. Datum" 
+              required>
+            </div>
+            <div class="form-group">
+              <label for="validationDefault01">Name</label>
+              <input type="text" class="form-control" id="gianni-lname" 
+              required>
+            </div>
+            <div class="form-group">
+              <label for="validationDefault01">PLZ, Ort</label>
+              <input type="text" class="form-control" id="gianni-zip" 
+              required>
+            </div> 
+            <div class="form-group">
+              <label for="validationDefault01">Mobile</label>
+              <input type="number" class="form-control" id="gianni-mobile" 
+              required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center" style="padding-top: 5%;">
+            <button class="btn btn-success" onclick=GianniValidateInput() type="submit">Absenden</button>
+          </div>
+        </div>
+          </div class="container">
+      </div>
+    </div>
+  </form>
+</center>
+<div id="footer" class="jumbotron text-center" style="margin-bottom:0">
+  <center>
+  <div class="row">
+    <div class="col-sm-3">
+      <center>
+      <div id="copyright">
+        <h6>Rocky Bumpers©</h6>
+        <p>All rights reserved</p>
+      </div>
+      </center>
+    </div>
+    <div class="col-sm-3">
+      <ul class="sponsors-ul">
+        <li>
+          Top Sponsors:
+        </li>
+        <li>
+          <a href="https://www.redbull.com/ch-de/energydrink?rbcid=1056200630&utm_source=Adwords&utm_medium=g&utm_campaign=1056200630&utm_content=431683408304&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-JfVnbiaRUK0HyOV5F9Mjv9mx2qFx9bdR64YS2bXVurzlaiuL-ueVgaAgz0EALw_wcB">
+          Redbull
+          </a>
+        </li>
+        <li>
+          <a href="https://gfuel.com/">
+          G-Fuel
+          </a>
+        </li>
+        <li>
+          <a href="https://nordvpn.com/">
+          Nord VPN
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <ul class="nico-ul">
+        <li>
+          Contact:
+        </li>
+        <li>
+          <a href="oliver_kontakt.html">
+            Unsere kontakt-seite
+          </a>
+        </li>
+        <li>
+          support mail: info@rocky-bumpers.
+        </li>
+        <li>
+          support line: 078 901 2345
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src="nico_home.js"></script>
+</body>
+</html>
+

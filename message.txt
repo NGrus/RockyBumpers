@@ -1,0 +1,97 @@
+          <div>
+
+            <h1>Mitgliedschaft</h1>
+
+            <p>Unterstütze unsere Aktivitäten. Ob ideell oder aktiv - wir brauchen deine Stimme, um uns auf politischer und gesellschaftlicher Ebene für unseren Sport einsetzen zu können.</p>
+
+            <ul>
+              <li>Aktivmitglied - Du zahlst 50.- CHF/Jahr und nimmst am Vereinsleben teil. Alle unsere Aktivitäten wie Touren, Events und Workshops stehen dir völlig kostenlos zur Verfügung.</li>
+              <li>Fördermitglied - Du zahlst 100.- CHF/Jahr und hast alle Rechte eines Aktivmitglieds. Mit Deinem freiwilligen höheren Betrag unterstützt Du unsere Aktivitäten nicht nur ideell, sondern trägst dazu bei, dass wir auch in Zukunft unsere Aktivitäten für unsere Mitglieder kostenlos gestalten können</li>
+              <li>Passivmitglied - Du zahlst 20.- CHF/Jahr und unterstützt uns damit ideell und möchtest nur in begrenztem Rahmen am Vereinsleben teilnehmen.</li>
+            </ul> 
+
+          </div>
+
+          <form action="confirmationMitglieder.html">
+
+                <div class="container">
+                  <!-- <div class="row justify-content-center"> -->
+                    <!-- <div class="col-md-4 mb-3 text-center">   -->
+                  <div class="row">
+                      <div class="col-md-4">        
+                        <label class="text-success">Mitgliedschaft</label>
+                        <select class="custom-select-lg">
+                          <option>Wähle Deine Mitgliedschaft aus</option>
+                          <option>Aktivmitglied 50.- CHF/Jahr</option>
+                          <option>Passivmitglied 100.- CHF/Jahr</option>
+                          <option>Fördermitglied 20.- CHF/Jahr</option>
+                        </select>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="form-row">  
+                
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault01">Anrede</label>
+                      <input type="text" class="form-control" id="validationDefault01" 
+                      placeholder="Anrede" required>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault01">Vorname</label>
+                      <input type="text" class="form-control" id="validationDefault01" 
+                      placeholder="Vorname"  required>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">Name</label>
+                      <input type="text" class="form-control" id="validationDefault02" 
+                      placeholder="Name" required>
+                    </div>
+            
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">Geb. Datum</label>
+                      <input type="date" class="form-control" id="validationDefault02" 
+                      placeholder="Geb. Datum" required>
+                    </div>
+            
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">Strasse</label>
+                      <input type="text" class="form-control" id="validationDefault02" 
+                      placeholder="Strasse" required>
+                    </div>      
+
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">PLZ</label>
+                      <input type="text" class="form-control" id="validationDefault02" 
+                      placeholder="PLZ" required>
+                    </div> 
+
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">Ort</label>
+                      <input type="text" class="form-control" id="validationDefault02" 
+                      placeholder="Ort" required>
+                    </div> 
+
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">E-Mail</label>
+                      <input type="email" class="form-control" id="validationDefault02" 
+                      placeholder="E-Mail" required>
+                    </div> 
+
+                    <div class="col-md-4 mb-3">
+                      <label for="validationDefault02">Mobile</label>
+                      <input type="number" class="form-control" id="validationDefault02" 
+                      placeholder="Mobile" required>
+                    </div> 
+                  
+                </div>
+
+
+                </div>
+                    <button class="btn btn-success" type="submit">Absenden</button>
+                </div>
+
+          </form>

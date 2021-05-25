@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="nico_home.css">
+  <style>
+    #Banner{
+       background-image: url(mtb_banner.jpg);
+       background-size: cover;
+       font-size: 20%;
+       text-align: center;
+       padding: 10%;
+    }
+    #yrBox{
+        background-color: #c9bfb39c;
+        border-color: white;
+        padding-top:1%;
+        margin-bottom:1%;
+    }
+    #yrTxt{
+        background-color: #c9bfb346;
+        border-color: white;
+        padding-top:1%;
+        margin-bottom:1%;
+    }
+/*
+    h1{
+        color: white;
+    }
+*/
+    h2{
+        padding-top: 5%;
+        padding-bottom:5%;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navitems" class="navbar navbar-expand-sm" style="background: rgb(106,156,106); background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);">
+    <a href="nico_home.html"><img id="logo" class="rounded-circle" src="logorocky.png"></a>
+    <div id="Titlecont">
+      <h1 id=RockyBumpers> Rocky Bumpers</h1>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <div id="navigation">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="gianni_mitglieder.html">Mitglied</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carolina_geschichte.html">Geschichte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dina_events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="oliver_kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="memberbutton">
+    <a href="gianni_mitglieder.html"><button class="btn btn-success"  id="registerbtn">Register Now!</button></a>
+  </div>
+  <div id="scrolltop">
+    <img onclick="topFunction()" class="rounded-circle" id="myBtn" title="Go to top" src="download.png"
+      style="margin:0px;padding:0px;">
+  </div>
+<center>
+  <div id="main" class="col-sm-8">
+    <div class="container-fluid" style="margin-top: 5%;">
+      <div class="row">
+          <div class="col-sm-12" id="Banner">
+          </div>
+      </div>
+
+        <div class="row" id="textbox">
+          <div class="col-sm-12">
+              <h2>Unser Vereinshaus</h2>
+          </div>
+
+          <div class="col-sm-7" id="clubHtxt">
+              <p>Das Vereinshaus der Rocky Bumpers befindet sich am Fusse des Zürichbergs und ist mit Öffentlichen Verkehrsmitteln schnell erreichbar. 
+                Wegen der stetig ansteigenden Mitgliederzahl wird das Vereinshaus merheitlich nur noch für grössere Events genutzt, jedoch starten vin hier aus noch alle lokalen Vereinsauslfüge. 
+                Zukünftig ist eine Erweiterung des Hauptgebäudes und der Velowerkstatt geplant.</p>
+          </div>
+
+          <div class="col-sm-5" id="clubHimg">
+              <img src="clubHouse.jpg" alt=" image not found" style="width: 100%;">
+          </div>
+        </div>
+
+      <div class="row"  id="textbox">
+          <div class="col-sm-12">
+              <h2>Geschichte</h2>
+          </div>
+          <div class="col-sm-3" id="yrBox">
+              <h3>2000</h3>
+          </div>
+          <div class="col-sm-9" id="yrTxt">
+              <p>Gründung des Rocky Bumpers Mountainbike Vereins, damals noch im mittlerweile ehemaligen Vereinshaus.</p>
+          </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2002</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p> Wir sind umgezogen! durch grosszügige Spenden war es uns möglich in ein grösseres Vereinshaus zu ziehen, komplett mit Velowerkstatt.</p>
+        </div>
+
+          <div class="col-sm-3" id="yrBox">
+              <h3>2003</h3>
+          </div>
+          <div class="col-sm-9" id="yrTxt">
+              <p> Der erste Rocky Bumpers Jahreswettbewerb hat wurde mit grossem Publikumserfolg veranstaltet.</p>
+          </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2005</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p> Die Rocky Bumpers familie wächst stetig weiter, jetzt haben wir schon <b>200 Mitglieder!</b></p>
+        </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2006</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p>Unser Erster Sponsor ist Red Bull! Wir hoffen auf eine erfolgreiche und harmonische Partnerschaft.</p>
+        </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2010</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p>10 Jahre Rocky Bumpers! Diesem feierlichen Ereignis zu Ehren wurde eine gemeinnützige Spendenaktion gestartet um 
+              Drittweltländern erschwingliche Transportmöglichkeiten anzubieten</p>
+        </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2015</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p> <b>500 Rocky Bumpers!</b> Und hoffentlich bald schon viele mehr! </p>
+        </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2020</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p> 20 Jahre Rocky Bumpers! Leider viel durch die Corona-Krise unser Spendenmarathon aus, jedoch hoffen wir diesen zukünftig nacholen zu dürfen.</p>
+        </div>
+
+          <div class="col-sm-3" id="yrBox">
+            <h3>2021</h3>
+        </div>
+        <div class="col-sm-9" id="yrTxt">
+            <p> Der erste Event des Jahres hat im Mai stattgefunden und war ein grosser Erfolg auf ganzer Linie!</p>
+        </div>
+
+      </div>
+
+      <div class="row" id="textbox">
+          <div class="col-sm-12">
+          <h2>Fragen zu unserem Verein?</h2>
+            <div id=Form>
+              <form class="archiveform">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Name</label>
+                  <input type="name" class="form-control" id="CarolinaName" placeholder="" name="email">
+                </div>
+                  <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" class="form-control" id="CarolinaMail" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label>Betreff</label>
+                  <input type="subject" class="form-control" id="CarolinaSubject" placeholder="">
+                </div>
+                <div class="form-group" style="padding-bottom:10%">
+                  <label>Nachricht</label>
+                  <textarea class="form-control" rows="5" id="CarolinaMessage" name="text"></textarea>
+                </div> 
+              </form>
+              <div class="col-sm-12" id="button">
+                <button type="submit" class="btn btn-success" onclick="CaroValidateInput()" id="buttonSub">Absenden</button>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</center>
+<div id="footer" class="jumbotron text-center" style="margin-bottom:0">
+  <center>
+  <div class="row">
+    <div class="col-sm-3">
+      <center>
+      <div id="copyright">
+        <h6>Rocky Bumpers©</h6>
+        <p>All rights reserved</p>
+      </div>
+      </center>
+    </div>
+    <div class="col-sm-3">
+      <ul class="sponsors-ul">
+        <li>
+          Top Sponsors:
+        </li>
+        <li>
+          <a href="https://www.redbull.com/ch-de/energydrink?rbcid=1056200630&utm_source=Adwords&utm_medium=g&utm_campaign=1056200630&utm_content=431683408304&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-JfVnbiaRUK0HyOV5F9Mjv9mx2qFx9bdR64YS2bXVurzlaiuL-ueVgaAgz0EALw_wcB">
+          Redbull
+          </a>
+        </li>
+        <li>
+          <a href="https://gfuel.com/">
+          G-Fuel
+          </a>
+        </li>
+        <li>
+          <a href="https://nordvpn.com/">
+          Nord VPN
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <ul class="nico-ul">
+        <li>
+          Contact:
+        </li>
+        <li>
+          <a href="oliver_kontakt.html">
+            Unsere ontakt-seite
+          </a>
+        </li>
+        <li>
+          support mail: info@rocky-bumpers.
+        </li>
+        <li>
+          support line: 078 901 2345
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src="nico_home.js"></script>
+</body>
+</html>

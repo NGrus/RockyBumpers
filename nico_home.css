@@ -1,0 +1,220 @@
+.fakeimg {
+  height: 200px;
+  background: rgb(105, 124, 94);
+  padding-bottom:50px;
+}
+
+body {
+  background-image: url(hike.jpg);
+  background-position:absolute;
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  font-family:ubuntu;
+}
+#exampleCheck1 {  
+   width:30px;   height:30px;   padding:30px; 
+}  
+#checkboxtext {   
+  margin-left:20px;
+  margin-top: 10px;
+}
+#OliverButton {
+  margin-top:-95px;
+}
+#Titlecont{
+  margin-left:15px;
+}
+#navitems {
+  padding-top:5px;
+  position:sticky;
+  top:0;
+  z-index:1;
+}
+#Dinabtn  {
+  margin-top:-180px;
+}
+#footer a {
+  color:rgb(27, 123, 54)
+}
+a{
+  color: #000000;
+}
+#buttonSub{
+  margin-top: -20%;
+}
+
+a:hover{
+  color: white;
+}
+#logo {
+  height: 75px;
+  width: 75px;
+}
+.custom-select-lg{
+  width:80%;
+}
+.form-select{
+  width:80%;
+}
+.form-check {
+  padding-bottom:20px;
+}
+#main{
+  padding-top:25px;
+  background-color:rgba(156, 163, 155, 0.726);
+  padding-bottom:25px;
+  opacity:95%;
+}
+#footer{
+  background-color:grey;
+  margin-top:-0px;
+  z-index:1;
+}
+#myBtn{
+  box-shadow:black 0px 0px 10px;
+  border-radius:100%;
+  width:60px;
+  height:60px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(211, 211, 211);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  opacity:70%;
+  display:none;
+}
+#memberbutton {
+  z-index:1;
+  position:fixed;
+  margin-left:2px;
+  margin-top:10px;
+}
+.nico-ul{
+  list-style: none;
+  text-align:center;
+}
+td {
+  margin:30px;
+}
+#Check1 {
+  width:30px;
+  height:30px;
+  padding:30px;
+}
+#checkboxtext{
+  margin-left:20px;
+}
+
+#footer{
+  background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);"
+}
+form{
+  margin-top:50px;
+  max-width: 80%;
+  background-color: #c9bfb3;
+  padding: 5%;
+  text-align:left;
+  padding-bottom:50px;
+}
+#nico-form{
+  padding-bottom:50px;
+}
+#dina-form  {
+  margin-top:50px;
+  max-width: 80%;
+  background-color: #a0d3e7;
+  padding: 5%;
+  text-align:left;
+}
+#dina-formbox {
+  background-color: rgb(141, 219, 193);
+}
+#dinaform {
+  background-color: rgb(32, 175, 127);
+}
+#textbox{
+  margin-top:25px;
+  margin-bottom:25px;
+  background-color: white;
+  padding: 5%;
+}
+#eventtable{
+  padding:50px;
+  color: #232917;
+  text-shadow: #11130e;
+  background-color: #95bd68;
+}
+.sponsors-ul  {
+  font-size:20px;
+  list-style: none;
+}
+/*
+MEDIA OPTIONS
+*/
+@media screen and (max-width: 575px) {
+  #memberbutton {
+  margin-left:150px;
+  margin-top:-80px;
+  display:none;
+  }
+  #buttonSub{
+    margin-top: -40%;
+  }
+  #OliverButton {
+    margin-top:-115px;
+  }
+  #Titlecont{
+    margin-left:0px;
+  }
+  #Dinabtn{
+    margin-top:-220px;
+  }
+  form{
+    padding-bottom:70px;
+  }
+  #main{
+    opacity:90%;
+  }
+  form{
+    max-width: fit-content;
+  }
+  .nav-link{
+    font-size:13px;
+  }
+  #contactform{
+    margin-left:20px;
+  }
+  #nico-ul{
+    text-align:center;
+  }
+}
+@media screen and (min-width: 575px) {
+  .navbar-nav {
+  margin-left:150px;
+  margin-top:80px
+  }
+  #memberbutton{
+    opacity:60%;
+  }
+}
+@media screen and (min-width: 800px) {
+  #memberbutton{
+    opacity:90%;
+  }
+  .carousel-item h5 {
+    color: rgb(22, 34, 11);
+  }
+}
+table {
+  width: 100%;
+}
+form {
+  width: 100%;
+}
