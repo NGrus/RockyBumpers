@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Home</title>
   <meta charset="utf-8">
@@ -12,9 +13,11 @@
   <style>
   </style>
 </head>
+
 <body>
-  <nav id="navitems" class="navbar navbar-expand-sm" style="background: rgb(106,156,106); background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);">
-    <a href="nico_home.html"><img id="logo" class="rounded-circle" src="logorocky.png"></a>
+  <nav id="navitems" class="navbar navbar-expand-sm"
+    style="background: rgb(106,156,106); background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);">
+    <a href="index.html"><img id="logo" class="rounded-circle" src="logorocky.png"></a>
     <div id="Titlecont">
       <h1 id=RockyBumpers> Rocky Bumpers</h1>
     </div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -40,7 +43,7 @@
     </div>
   </nav>
   <div id="memberbutton">
-    <a href="gianni_mitglieder.html"><button class="btn btn-success"  id="registerbtn">Register Now!</button></a>
+    <a href="gianni_mitglieder.html"><button class="btn btn-success" id="registerbtn">Register Now!</button></a>
   </div>
   <div id="scrolltop">
     <img onclick="topFunction()" class="rounded-circle" id="myBtn" title="Go to top" src="download.png"
@@ -48,126 +51,129 @@
   </div>
   <center>
     <div id="main" class="col-sm-8">
-    <div class="container">
-      <div id="textbox">
-        <div class="row">
-          <div class="col-sm-8" style="margin-top:50px;">
-            <h1>Kontaktieren Sie uns!</h1>
-            <table style="font-size:20px;margin-top:40px; text-align:center;" id="contacttable">
-              <tr>
+      <div class="container">
+        <div id="textbox">
+          <div class="row">
+            <div class="col-sm-8" style="margin-top:50px;">
+              <h1>Kontaktieren Sie uns!</h1>
+              <table style="font-size:20px;margin-top:40px; text-align:center;" id="contacttable">
+                <tr>
+                  <td>
+                    Rocky Bumpers Bicycle Club <br>Thurgauerstrasse 54 <br>8050 Zürich
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Johannes Meyerhans
+                  </td>
+                </tr>
                 <td>
-                  Rocky Bumpers Bicycle Club <br>Thurgauerstrasse 54 <br>8050 Zürich
+                  077 911 0631
                 </td>
-              </tr>
-              <tr>
-                <td>
-                  Johannes Meyerhans
-              </td>
-              </tr>
-                <td>
-                077 911 0631
-                </td>
-              </tr>
-            </table>
-            <hr>
-            <table style="font-size:20px;margin-top:40px; text-align:center;">
-              <tr>
-                <td>
-                  Bürozeiten:
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Mo-Fr: 08:00 - 17:30<br>
-                  Sa: 08:00-12:00<br>
-                  So: Geschlossen
-                </td>
-              </tr>
-            </table>
-          </div>
+                </tr>
+              </table>
+              <hr>
+              <table style="font-size:20px;margin-top:40px; text-align:center;">
+                <tr>
+                  <td>
+                    Bürozeiten:
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Mo-Fr: 08:00 - 17:30<br>
+                    Sa: 08:00-12:00<br>
+                    So: Geschlossen
+                  </td>
+                </tr>
+              </table>
+            </div>
 
-          <div class="col-sm-4">
-            <form id="contactform" action="/action_page.php">
-              <div class="form-group">
-                <label for="email">Name:</label>
-                <input type="name" class="form-control" id="OliverName" placeholder="Enter Name" name="email">
-              </div>
-              <div class="form-group">
-                <label for="pwd">E-mail:</label>
-                <input type="email" class="form-control" id="OliverEmail" placeholder="Enter E-mail" name="pswd">
-              </div>
-              <div class="form-group form-check">
-              </div>
-              <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="OliverComment" name="text"></textarea>
-              </div>
-            </form> 
-             <button id="OliverButton" onclick="OliverValidateInput()" type="submit" class="btn btn-success">Submit</button>
+            <div class="col-sm-4">
+              <form id="contactform" action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Name:</label>
+                  <input type="name" class="form-control" id="OliverName" placeholder="Enter Name" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">E-mail:</label>
+                  <input type="email" class="form-control" id="OliverEmail" placeholder="Enter E-mail" name="pswd">
+                </div>
+                <div class="form-group form-check">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" rows="5" id="OliverComment" name="text"></textarea>
+                </div>
+              </form>
+              <button id="OliverButton" onclick="OliverValidateInput()" type="submit"
+                class="btn btn-success">Submit</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+
+  </center>
+
+  <div id="footer" class="jumbotron text-center" style="margin-bottom:0">
+    <center>
+      <div class="row">
+        <div class="col-sm-3">
+          <center>
+            <div id="copyright">
+              <h6>Rocky Bumpers©</h6>
+              <p>All rights reserved</p>
+            </div>
+          </center>
+        </div>
+        <div class="col-sm-3">
+          <ul class="sponsors-ul">
+            <li>
+              Top Sponsors:
+            </li>
+            <li>
+              <a
+                href="https://www.redbull.com/ch-de/energydrink?rbcid=1056200630&utm_source=Adwords&utm_medium=g&utm_campaign=1056200630&utm_content=431683408304&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-JfVnbiaRUK0HyOV5F9Mjv9mx2qFx9bdR64YS2bXVurzlaiuL-ueVgaAgz0EALw_wcB">
+                Redbull
+              </a>
+            </li>
+            <li>
+              <a href="https://gfuel.com/">
+                G-Fuel
+              </a>
+            </li>
+            <li>
+              <a href="https://nordvpn.com/">
+                Nord VPN
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="nico-ul">
+            <li>
+              Contact:
+            </li>
+            <li>
+              <a href="oliver_kontakt.html">
+                Unsere kontakt-seite
+              </a>
+            </li>
+            <li>
+              support mail: info@rocky-bumpers.
+            </li>
+            <li>
+              support line: 078 901 2345
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-        
-        
-    </div>
-   </div> 
-</div>
-
-</center>
-
-<div id="footer" class="jumbotron text-center" style="margin-bottom:0">
-  <center>
-  <div class="row">
-    <div class="col-sm-3">
-      <center>
-      <div id="copyright">
-        <h6>Rocky Bumpers©</h6>
-        <p>All rights reserved</p>
-      </div>
-      </center>
-    </div>
-    <div class="col-sm-3">
-      <ul class="sponsors-ul">
-        <li>
-          Top Sponsors:
-        </li>
-        <li>
-          <a href="https://www.redbull.com/ch-de/energydrink?rbcid=1056200630&utm_source=Adwords&utm_medium=g&utm_campaign=1056200630&utm_content=431683408304&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-JfVnbiaRUK0HyOV5F9Mjv9mx2qFx9bdR64YS2bXVurzlaiuL-ueVgaAgz0EALw_wcB">
-          Redbull
-          </a>
-        </li>
-        <li>
-          <a href="https://gfuel.com/">
-          G-Fuel
-          </a>
-        </li>
-        <li>
-          <a href="https://nordvpn.com/">
-          Nord VPN
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-sm-6">
-      <ul class="nico-ul">
-        <li>
-          Contact:
-        </li>
-        <li>
-          <a href="oliver_kontakt.html">
-            Unsere kontakt-seite
-          </a>
-        </li>
-        <li>
-          support mail: info@rocky-bumpers.
-        </li>
-        <li>
-          support line: 078 901 2345
-        </li>
-      </ul>
-    </div>
   </div>
-</div>
-<script src="nico_home.js"></script>
+  <script src="nico_home.js"></script>
 </body>
+
 </html>
