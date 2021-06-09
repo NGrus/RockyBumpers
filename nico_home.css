@@ -248,3 +248,8 @@ table {
 form {
   width: 100%;
 }
+.p1 {
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 500;
+}
