@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
   <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Author Carolina Wimalasuriya">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -48,7 +49,7 @@
 <body>
   <nav id="navitems" class="navbar navbar-expand-sm"
     style="background: rgb(106,156,106); background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);">
-    <a href="index.html"><img id="logo" class="rounded-circle" src="logorocky.png"></a>
+    <a href="index.html"><img id="logo" class="rounded-circle" src="logorocky.png" alt="Rocky Bumpers Logo, zeigt die Silhouette eines Fahrradfahrers im Vordergrund, im Hintergrund sind stilisierte Bäume, darüber Berggipfel."></a>
     <div id="Titlecont">
       <h1 id=RockyBumpers> Rocky Bumpers</h1>
     </div>
@@ -85,7 +86,8 @@
     <div id="main" class="col-sm-8">
       <div class="container-fluid" style="margin-top: 5%;">
         <div class="row">
-          <div class="col-sm-12" id="Banner">
+          <div class="col-sm-12" id="Banner" alt="Ein Banner am Kopf der Webseite. Dargestellt sind Mehrere Mountainbiker in adäquater Schutzausrüstung, 
+          im Hintergrund ein bewölkter Himmel, zur rechten ist eine Baumkrone zu sehen.">
           </div>
         </div>
 
@@ -98,12 +100,15 @@
             <p>Das Vereinshaus der Rocky Bumpers befindet sich am Fusse des Zürichbergs und ist mit Öffentlichen
               Verkehrsmitteln schnell erreichbar.
               Wegen der stetig ansteigenden Mitgliederzahl wird das Vereinshaus merheitlich nur noch für grössere Events
-              genutzt, jedoch starten vin hier aus noch alle lokalen Vereinsauslfüge.
+              genutzt, jedoch starten von hier aus noch alle lokalen Vereinsauslfüge.
               Zukünftig ist eine Erweiterung des Hauptgebäudes und der Velowerkstatt geplant.</p>
           </div>
 
-          <div class="col-sm-5" id="clubHimg">
-            <img src="clubHouse.jpg" alt=" image not found" style="width: 100%;">
+          <div class="col-sm-5" id="clubHimg" >
+            <img src="clubHouse.jpg" alt="Abbildung des Vereinshaus. Im Hintergrund stehen einige Bäume, die vor einem 
+            klaren blauen Himmel verteilt stehen. Im Vordergrund befindet siche eine orangefarbene hölzerne Waldhütte mit einem dunkelblauen Dach.
+            Der Eingang auf der linken Seite zum Haus hat sein eigenes Vordach und ist über vier Stufen zu betreten, darüber befindet sich ein grosses Fenster.
+             Zur rechten Seite des Hauses befinden sich noch weitere Fenster und ein Seiteneingang, diesmal ohne Vordach. Auf dem Grundstück sind vereinzelt kleine gebüsche verteilt." style="width: 100%;">
           </div>
         </div>
 
@@ -186,20 +191,20 @@
             <div id=Form>
               <form class="archiveform">
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Name</label>
-                  <input type="name" class="form-control" id="CarolinaName" placeholder="" name="email">
+                  <label for="CarolinaName"> Name </label>
+                  <input type="name" class="form-control" id="CarolinaName">
                 </div>
                 <div class="form-group">
-                  <label>Email</label>
+                  <label for="CarolinaMail">Email</label>
                   <input type="email" class="form-control" id="CarolinaMail" placeholder="name@example.com">
                 </div>
                 <div class="form-group">
-                  <label>Betreff</label>
-                  <input type="subject" class="form-control" id="CarolinaSubject" placeholder="">
+                  <label for="CarolinaSubject">Betreff</label>
+                  <input type="subject" class="form-control" id="CarolinaSubject" >
                 </div>
                 <div class="form-group" style="padding-bottom:10%">
-                  <label>Nachricht</label>
-                  <textarea class="form-control" rows="5" id="CarolinaMessage" name="text"></textarea>
+                  <label for="CarolinaMessage">Nachricht</label>
+                  <textarea class="form-control" rows="5" id="CarolinaMessage" name="text" ></textarea>
                 </div>
               </form>
               <div class="col-sm-12" id="button">
@@ -217,7 +222,8 @@
         <div class="col-sm-3">
           <center>
             <div id="copyright">
-              <h6>Rocky Bumpers©</h6>
+              <b>Rocky Bumpers©</b>
+                <br>
               <p>All rights reserved</p>
             </div>
           </center>
@@ -252,7 +258,7 @@
             </li>
             <li>
               <a href="oliver_kontakt.html">
-                Unsere ontakt-seite
+                Unsere Kontakt-seite
               </a>
             </li>
             <li>
