@@ -28,13 +28,13 @@ body {
   padding-top:5px;
   position:sticky;
   top:0;
-  z-index:1;
+  z-index:1024;
 }
 #Dinabtn  {
   margin-top:-180px;
 }
 #footer a {
-  color:rgb(27, 123, 54)
+  color:rgb(14, 61, 27)
 }
 a{
   color: #000000;
@@ -64,6 +64,12 @@ a:hover{
   background-color:rgba(156, 163, 155, 0.726);
   padding-bottom:25px;
   opacity:95%;
+}
+#nicomain{
+  padding-top:25px;
+  background-color:rgba(156, 163, 155, 0.726);
+  padding-bottom:25px;
+  opacity:100%;
 }
 #footer{
   background-color:grey;
@@ -104,6 +110,8 @@ td {
   margin:30px;
 }
 #Check1 {
+  margin-top:-20px;
+  margin-left:-320px;
   width:30px;
   height:30px;
   padding:30px;
@@ -118,13 +126,17 @@ td {
 form{
   margin-top:50px;
   max-width: 80%;
-  background-color: #c9bfb3;
+  background-color: #000000;
+  color:white;
   padding: 5%;
   text-align:left;
   padding-bottom:50px;
 }
 #nico-form{
   padding-bottom:50px;
+}
+#nicobtn{
+  opacity:100%;
 }
 #dina-form  {
   margin-top:50px;
@@ -145,6 +157,9 @@ form{
   background-color: white;
   padding: 5%;
 }
+.emailHelp{
+  color:black;
+}
 #eventtable{
   padding:50px;
   color: #232917;
@@ -164,6 +179,12 @@ MEDIA OPTIONS
   margin-left:150px;
   margin-top:-80px;
   display:none;
+  }
+  #navigation ul a{
+      padding:0;
+      margin:11px;
+      flex-shrink: 1;
+      font-size:15px;
   }
   #myBtn{
     box-shadow:black 0px 0px 10px;
@@ -213,7 +234,7 @@ MEDIA OPTIONS
     z-index:1000;
   }
   .navbar{
-    z-index:500;
+    z-index:1010;
   }
   .nav-link{
     font-size:13px;
@@ -223,6 +244,13 @@ MEDIA OPTIONS
   }
   #nico-ul{
     text-align:center;
+  }
+  #Check1 {
+    margin-top:-45px;
+    margin-left:-140px;
+    width:30px;
+    height:30px;
+    padding:30px;
   }
 }
 @media screen and (min-width: 575px) {
@@ -236,7 +264,7 @@ MEDIA OPTIONS
 }
 @media screen and (min-width: 800px) {
   #memberbutton{
-    opacity:90%;
+    opacity:100%;
   }
   .carousel-item h5 {
     color: rgb(22, 34, 11);
@@ -247,4 +275,19 @@ table {
 }
 form {
   width: 100%;
+}
+.p1 {
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.p2 {
+  font-size: 34px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.p3 {
+  font-size: 35px;
+  line-height: 1.4;
+  font-weight: 500;
 }
