@@ -56,6 +56,10 @@ a:hover{
 .form-select{
   width:80%;
 }
+.form-control:focus {
+  border: solid blue 5px;
+
+}
 .form-check {
   padding-bottom:20px;
 }
@@ -96,6 +100,11 @@ a:hover{
   opacity:70%;
   display:none;
 }
+.btn:focus{
+  border: solid blue 4px;
+
+}
+
 #memberbutton {
   z-index:1;
   position:fixed;
@@ -121,7 +130,7 @@ td {
 }
 
 #footer{
-  background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);"
+  background: linear-gradient(128deg, rgba(106,156,106,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
 }
 form{
   margin-top:50px;
@@ -206,6 +215,10 @@ MEDIA OPTIONS
     opacity:70%;
     display:none;
   }
+  .custom-select-lg:focus{
+    border: solid blue 3px;
+  }
+  
   #eventtable{
     text-align:left;
   }
