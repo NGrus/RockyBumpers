@@ -276,3 +276,18 @@ table {
 form {
   width: 100%;
 }
+.p1 {
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.p2 {
+  font-size: 34px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.p3 {
+  font-size: 35px;
+  line-height: 1.4;
+  font-weight: 500;
+}
