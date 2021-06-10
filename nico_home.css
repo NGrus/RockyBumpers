@@ -34,7 +34,7 @@ body {
   margin-top:-180px;
 }
 #footer a {
-  color:rgb(27, 123, 54)
+  color:rgb(14, 61, 27)
 }
 a{
   color: #000000;
@@ -64,6 +64,12 @@ a:hover{
   background-color:rgba(156, 163, 155, 0.726);
   padding-bottom:25px;
   opacity:95%;
+}
+#nicomain{
+  padding-top:25px;
+  background-color:rgba(156, 163, 155, 0.726);
+  padding-bottom:25px;
+  opacity:100%;
 }
 #footer{
   background-color:grey;
@@ -118,13 +124,17 @@ td {
 form{
   margin-top:50px;
   max-width: 80%;
-  background-color: #c9bfb3;
+  background-color: #000000;
+  color:white;
   padding: 5%;
   text-align:left;
   padding-bottom:50px;
 }
 #nico-form{
   padding-bottom:50px;
+}
+#nicobtn{
+  opacity:100%;
 }
 #dina-form  {
   margin-top:50px;
@@ -144,6 +154,9 @@ form{
   margin-bottom:25px;
   background-color: white;
   padding: 5%;
+}
+.emailHelp{
+  color:black;
 }
 #eventtable{
   padding:50px;
@@ -236,7 +249,7 @@ MEDIA OPTIONS
 }
 @media screen and (min-width: 800px) {
   #memberbutton{
-    opacity:90%;
+    opacity:100%;
   }
   .carousel-item h5 {
     color: rgb(22, 34, 11);
