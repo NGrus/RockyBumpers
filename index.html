@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A site all about Biking!">
   <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,56 +12,57 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="nico_home.css">
+  <link rel="stylesheet" href="build/css/style.css"/>
   <style>
   </style>
 </head>
 
 <body>
-  <nav id="navitems" class="navbar navbar-expand-sm"
+  <nav id="navitems" class="navbar navbar-expand-sm navbar-light bg-light"
     style="background: linear-gradient(128deg, rgba(255,255,255,1) 30%, rgba(106,156,106,1) 70%, rgba(106,156,106,1) 100%);">
-    <a href="index.html"><img id="logo" class="rounded-circle" src="logorocky.png"></a>
+    <a href="index.html"><img id="logo" alt="The Rocky Bumpers logo; A mountain biker cycling uphill on a background of Mountains" class="rounded-circle" src="logorocky.png"></a>
     <div id="Titlecont">
-      <h1 id=RockyBumpers> Rocky Bumpers</h1>
+      <h1 id=RockyBumpers>Rocky Bumpers</h1>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler navbar-toggler-right" label="The button to toggle the Navigation Menu on and off." type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <!--navbar-->
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <div id="navigation">
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-start">
           <li class="nav-item">
-            <a class="nav-link" href="gianni_mitglieder.html">Mitglied</a>
+            <a class="nav-link" label="Mitglieder page" href="gianni_mitglieder.html">Mitglied</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="carolina_geschichte.html">Geschichte</a>
+            <a class="nav-link" label="Über uns"href="carolina_geschichte.html">Geschichte</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="dina_events.html">Events</a>
+            <a class="nav-link" label="Events" href="dina_events.html">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="oliver_kontakt.html">Kontakt</a>
+            <a class="nav-link" label="Kontakt" href="oliver_kontakt.html">Kontakt</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <div id="memberbutton">
-    <a href="gianni_mitglieder.html"><button class="btn btn-success" id="registerbtn">Register Now!</button></a>
+    <a href="gianni_mitglieder.html"><button class="btn btn-success" label="Mitglied werden" id="registerbtn">Jetzt registrieren</button></a>
   </div>
   <div id="scrolltop">
     <img onclick="topFunction()" class="rounded-circle" id="myBtn" title="Go to top" src="download.png"
       style="margin:0px;padding:0px;">
   </div>
   <center>
-    <div id="main" class="col-sm-8">
+    <div id="nicomain" class="col-sm-8">
       <div id=textbox>
         <h2>Wilkommen bei Rocky Bumpers!</h2>
-        <h5>Schnapp dir dein Gear und los geht's</h5>
+        <h3>Schnapp dir dein Gear und los geht's</h3>
         <div>
-          <img src="bikegif1.gif" style="width:60%;">
+          <img src="bikegif1.gif" jpg 500w" alt="Eine POV aufnahme von einem Mountain Biker, der recht schnell eine kurvige piste hinunterfährt." style="width:60%;">
         </div>
-        <p>Was dich als Mitglied erwartet;</p>
+        <h4>Was dich als Mitglied erwartet;</h4>
         <ul style="list-style: none;">
           <li>
             Mindestens ein Treffen wöchentlich, unabhängig von Wetter.
@@ -75,9 +78,9 @@
       <div id=textbox>
         <h2>Unfall der Woche</h2>
         <div>
-          <img src="bikegif2.gif" style="width:60%;">
+          <img src="bikegif2.gif" alt="Ein Video von einem jungen Mann, der versucht einen Hügel als rampe zu benutzen, dabei jedoch umfällt" style="width:60%;">
         </div>
-        <p>Klein Timon hats verhauen...</p>
+        <h3>Klein Timon hats verhauen...</h3>
         <p>Als Neuling sollte man mit Vorsicht vorgehen, das Illustriert unser neustes Mitglied hier recht gut.<br>
           Haltet euch an die Ratschläge jener mit mehr Erfahrung, sie meinen es gut.
         </p>
@@ -90,27 +93,29 @@
             <div id="formbox">
               <form id="nico-form">
                 <div class="form-group">
-                  <label for="Email1">Email</label>
-                  <input type="email" class="form-control" aria-describedby="emailHelp" id="NicoEmai1">
+                  <label for="Email1" style="color:rgb(190, 240, 190);">Email
+                  <input type="email" label="Dies ist das feld für die Email" class="form-control" aria-describedby="emailHelp" id="NicoEmai1">
+                  </label>
                   <!--EMAIL ID-->
-                  <small id="emailHelp" class="form-text text-muted">Wir teilen eure Informationen mit
+                  <small id="emailHelp"  class="form-text text-info" >Wir teilen eure Informationen mit
                     niemandem!</small>
                 </div>
-                <div class="form-group">
-                  <label for="Name">Name</label>
-                  <input type="name" class="form-control" id="NicoName">
+                <div class="form-group" >
+                  <label for="Name" style="color:rgb(190, 240, 190);">Name
+                  <input type="name" class="form-control" label="Dies ist das feld für Ihren Namen" id="NicoName">
+                  </label>
                   <!--NAME ID-->
                 </div>
                 <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="Check1">
-                  <label class="form-check-label" style="margin-bottom:20px;" id="checkboxtext" for="exampleCheck1">Ich
+                  <label class="form-check-label"  style="color:rgb(190, 240, 190);margin-bottom:20px;" id="checkboxtext" for="exampleCheck1">Ich
                     bin mit den
                     allgemeinen<br>geschäftsbedingungen einverstanden
+                  <input type="checkbox" class="form-check-input" label="Dies ist die checkbox für die Geschäftsbedingungen" id="Check1">
                   </label>
                 </div>
-              </form>
-              <button type="submit" onclick="NicoValidateInput()" style="margin-top:-100px;"
-                class="btn btn-success">Anmelden</button>
+             </form>
+              <button type="submit" id="nicobtn" label="Dies ist der knopf fürs Absenden" onclick="NicoValidateInput()" style="margin-top:-100px;opacity:100%;"
+                class="btn btn-dark">Anmelden</button>
             </div>
           </div>
       </div>
@@ -123,36 +128,36 @@
         <div class="col-sm-3">
           <center>
             <div id="copyright">
-              <h6>Rocky Bumpers©</h6>
+              <h1>Rocky Bumpers©</h1>
               <p>All rights reserved</p>
             </div>
           </center>
         </div>
         <div class="col-sm-3">
-          <ul class="sponsors-ul">
+          <ul label ="Eine Liste unserer Sponsoren" class="sponsors-ul">
             <li>
               Top Sponsors:
             </li>
             <li>
-              <a
+              <a label="ein link zur Website von Redbull"
                 href="https://www.redbull.com/ch-de/energydrink?rbcid=1056200630&utm_source=Adwords&utm_medium=g&utm_campaign=1056200630&utm_content=431683408304&gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-JfVnbiaRUK0HyOV5F9Mjv9mx2qFx9bdR64YS2bXVurzlaiuL-ueVgaAgz0EALw_wcB">
                 Redbull
               </a>
             </li>
             <li>
-              <a href="https://gfuel.com/">
+              <a label="Ein Link zu G-Fuel's Website" href="https://gfuel.com/">
                 G-Fuel
               </a>
             </li>
             <li>
-              <a href="https://nordvpn.com/">
+              <a label="Ein Link zu Nordvpn's Website" href="https://nordvpn.com/">
                 Nord VPN
               </a>
             </li>
           </ul>
         </div>
         <div class="col-sm-6">
-          <ul class="nico-ul">
+          <ul label="Eine liste unserer Kontaktangaben" class="nico-ul">
             <li>
               Contact:
             </li>
