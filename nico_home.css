@@ -28,7 +28,7 @@ body {
   padding-top:5px;
   position:sticky;
   top:0;
-  z-index:1;
+  z-index:1024;
 }
 #Dinabtn  {
   margin-top:-180px;
@@ -110,6 +110,8 @@ td {
   margin:30px;
 }
 #Check1 {
+  margin-top:-20px;
+  margin-left:-320px;
   width:30px;
   height:30px;
   padding:30px;
@@ -178,6 +180,12 @@ MEDIA OPTIONS
   margin-top:-80px;
   display:none;
   }
+  #navigation ul a{
+      padding:0;
+      margin:11px;
+      flex-shrink: 1;
+      font-size:15px;
+  }
   #myBtn{
     box-shadow:black 0px 0px 10px;
     border-radius:100%;
@@ -226,7 +234,7 @@ MEDIA OPTIONS
     z-index:1000;
   }
   .navbar{
-    z-index:500;
+    z-index:1010;
   }
   .nav-link{
     font-size:13px;
@@ -236,6 +244,13 @@ MEDIA OPTIONS
   }
   #nico-ul{
     text-align:center;
+  }
+  #Check1 {
+    margin-top:-45px;
+    margin-left:-140px;
+    width:30px;
+    height:30px;
+    padding:30px;
   }
 }
 @media screen and (min-width: 575px) {
